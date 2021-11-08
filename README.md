@@ -26,7 +26,7 @@ flask, requests
 1. 在当前文件夹执行`python uploader.py <图片路径>`
 
 ```bash
-❯ py uploader.py test.png
+❯ python uploader.py test.png
 图片上传中...
 图片链接: http://i0.hdslb.com/bfs/album/cefaa6a1e3a5f8674f36192dc5f9251dca620540.png
 短网址:   https://b23.tv/CqfmCz
