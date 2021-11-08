@@ -15,7 +15,7 @@ python >= 3.6
 
 #### 第三方库:
 
-flask, requests
+flask, opencv, requests
 
 #### 使用方法:
 
