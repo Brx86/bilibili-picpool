@@ -68,7 +68,7 @@ def upload_web():
 def upload_full():
     # 如果是浏览器访问则跳转至路由/upload
     if request.method == "GET":
-        return redirect(url_for("upload")")
+        return redirect(url_for("upload"))
     # 保存图片
     save_path = save_img()
     if not save_path:
