@@ -21,7 +21,7 @@ flask, requests
 
 网页登陆Bilibili帐号，查看Cookie，将bili_jct和SESSDATA的值填入config.py
 
-**例如:**
+**使用例:**
 
 1. 在当前文件夹执行`python uploader.py <图片路径>`
 
