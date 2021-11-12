@@ -3,7 +3,7 @@
 ## 简介: 
 
 - 白嫖B站图片外链，可以用作图床，也可以用于在B站评论区发图
-
+- Demo: https://pic.aya1.top （可以作为网页打开，也可作为api）
 
 ## 注意事项:
 
@@ -38,6 +38,7 @@ flask, opencv, requests
 
 ```bash
 # shell命令
+# 可以在 ~/.zshrc 里自定义函数实现快捷上传 bpic(){curl -F "file=@$1" https://pic.aya1.top/short}
 
 ❯ curl -F "file=@test.png" http://127.0.0.1:2000/short
 https://b23.tv/pb3KZo
